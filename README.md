@@ -206,3 +206,8 @@ Paranoia.default_sentinel_value = DateTime.new(0)
 ## License
 
 This gem is released under the MIT license.
+
+## Publish a new version
+  * Bump version up in paranoia.gemspec.
+  * `gem build paranoia.gemspec`
+  * `gem push cmoran92-paranoia-2.0.2a.gem`
